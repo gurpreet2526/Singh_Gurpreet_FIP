@@ -321,6 +321,22 @@ body {
     color: #333;
 }
 
+input[type="checkbox"] {
+    background-color: #fff;
+    border-radius: 8px;
+ }
+ 
+  input[type="checkbox"]:checked + span {
+    color: #9a2018;
+  }
+ 
+ 
+  input[type="checkbox"]:checked + span::after {
+    content: "\2B50";
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
 /* Hero Section */
 .hero {
     text-align: center;
